@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNgLfUDr3Vm7F2QFC+icjc/",
+      "authorship_tag": "ABX9TyOabUWQ4JRBwDZ9cDBPRcoE",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -65,8 +65,8 @@
         "import entrada\n",
         "import operaciones_matrices as ops\n",
         "\n",
-        "\n",
-        "while True:\n",
+        "def ejecutar():\n",
+        "    while True:\n",
         "        opcion = menu.mostrar_menu()\n",
         "\n",
         "        if opcion == 5:\n",
@@ -94,8 +94,9 @@
         "            print(\"--- Resultado ---\")\n",
         "            entrada.mostrar_matriz(resultado)\n",
         "\n",
-        "\n",
-        ""
+        "if __name__ == \"__main__\":\n",
+        "    ejecutar()\n",
+        "    input(\"\\nPresiona Enter para salir...\")"
       ]
     }
   ]
