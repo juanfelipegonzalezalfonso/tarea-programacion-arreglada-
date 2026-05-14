@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM7R+CkQT9j2sAuZODWuCLb",
+      "authorship_tag": "ABX9TyNgLfUDr3Vm7F2QFC+icjc/",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -94,8 +94,8 @@
         "            print(\"--- Resultado ---\")\n",
         "            entrada.mostrar_matriz(resultado)\n",
         "\n",
-        "if __name__ == \"__main__\":\n",
-        "    ejecutar()"
+        "\n",
+        ""
       ]
     }
   ]
